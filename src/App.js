@@ -1,14 +1,16 @@
 
 import './App.css';
 import { Footer } from './components/Footer';
-import { Main } from './components/navBarCss/Main';
-// import { Navbar } from './components/Navbar';
+import { Navbar } from './components/Navbar';
 import './components/FooterCss/Footer.css';
+import { Main } from './components/Main';
+
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar /> 
       <Main />
       <Footer />
     </div>

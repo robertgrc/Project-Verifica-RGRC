@@ -95,7 +95,7 @@ a {
    margin: 10px; 
    border: 2px solid black; 
    float: left; 
-   width: 250px; 
+   width: 150px; 
   height: 100px;
 } 
 
@@ -103,6 +103,13 @@ a {
   padding-top: 20rem;
 }
 
-
+.card-deck{
+  -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 
