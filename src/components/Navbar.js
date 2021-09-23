@@ -1,6 +1,6 @@
 import React from 'react'
 import './navBarCss/navbar.css'
-// import image3 from '../../assets/img/portfolio/logo3'
+import logo from '../assets/images/logo3.jpg'
 
 
 export const Navbar = () => {
@@ -10,12 +10,8 @@ export const Navbar = () => {
        
             <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
                     <div className="container">
-                        {/* <img class="img-logo" src="./assets/img/logo3.jpg" /> */}
-                        {/* <img 
-                            src={image3}
-                            alt=""
-                            className="img-logo"
-                        /> */}
+                        <img class="img-logo" src={logo} alt="" /> 
+                        
                        
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ms-auto">
