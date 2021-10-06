@@ -44,8 +44,8 @@ export const Footer = () => {
                 </div>
             </div>
         </footer>
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy;WebResponsiva 2021</small></div>
+        <div className="copyright py-4 text-center text-white">
+            <div className="container"><small>Copyright &copy;WebResponsiva 2021</small></div>
         </div>
     </div>
     )

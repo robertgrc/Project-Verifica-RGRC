@@ -4620,7 +4620,26 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
+
+.card-deck{
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card-services{
+  max-width: 48%;
+}
+
+
+
 @media (min-width: 576px) {
+  
   .card-group {
     display: flex;
     flex-flow: row wrap;

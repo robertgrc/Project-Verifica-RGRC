@@ -3,49 +3,49 @@ import React from 'react'
 export const Main = () => {
     return (
         <div>
-            <header classNameName="masthead bg-primary text-white text-center">
+            <header className="masthead bg-primary text-white text-center">
 
-                <div _ngcontent-emq-c3="" classNameName="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
-                    <ol _ngcontent-emq-c3="" classNameName="carousel-indicators">
-                        <li _ngcontent-emq-c3="" classNameName="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+                <div _ngcontent-emq-c3="" className="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+                    <ol _ngcontent-emq-c3="" className="carousel-indicators">
+                        <li _ngcontent-emq-c3="" className="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
                     </ol>
-                    <div _ngcontent-emq-c3="" classNameName="carousel-inner">
-                        <div _ngcontent-emq-c3="" classNameName="carousel-item active">
-                            <img _ngcontent-emq-c3="" alt="First slide" classNameName="d-block w-100" src="../../../assets/img/verificar1.jpg"/>    
+                    <div _ngcontent-emq-c3="" className="carousel-inner">
+                        <div _ngcontent-emq-c3="" className="carousel-item active">
+                            <img _ngcontent-emq-c3="" alt="First slide" className="d-block w-100" src="../../../assets/img/verificar1.jpg"/>    
                         </div>
-                    </div><a _ngcontent-emq-c3="" classNameName="carousel-control-prev" data-slide="prev"
+                    </div><a _ngcontent-emq-c3="" className="carousel-control-prev" data-slide="prev"
                         href="#carouselExampleIndicators" role="button"><span _ngcontent-emq-c3="" aria-hidden="true"
-                            classNameName="carousel-control-prev-icon"></span><span _ngcontent-emq-c3=""
-                            classNameName="sr-only">Anterior</span></a><a _ngcontent-emq-c3="" classNameName="carousel-control-next"
+                            className="carousel-control-prev-icon"></span><span _ngcontent-emq-c3=""
+                            className="sr-only">Anterior</span></a><a _ngcontent-emq-c3="" className="carousel-control-next"
                         data-slide="next" href="#carouselExampleIndicators" role="button"><span _ngcontent-emq-c3=""
-                            aria-hidden="true" classNameName="carousel-control-next-icon"></span><span _ngcontent-emq-c3=""
-                            classNameName="sr-only">Siguiente</span></a>
+                            aria-hidden="true" className="carousel-control-next-icon"></span><span _ngcontent-emq-c3=""
+                            className="sr-only">Siguiente</span></a>
                 </div>
 
-            <div classNameName="container d-flex align-items-center flex-column">
+            <div className="container d-flex align-items-center flex-column">
 
-                <h1 classNameName="masthead-heading text-uppercase mb-0">ACERCA DE NOSOTROS</h1>
+                <h1 className="masthead-heading text-uppercase mb-0">ACERCA DE NOSOTROS</h1>
 
-                <div classNameName="divider-custom divider-light">
-                    <div classNameName="divider-custom-line"></div>
-                    <div classNameName="divider-custom-icon"><i classNameName="fas fa-star"></i></div>
-                    <div classNameName="divider-custom-line"></div>
+                <div className="divider-custom divider-light">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                    <div className="divider-custom-line"></div>
                 </div>
             </div>
-            <div _ngcontent-emq-c3="" classNameName="row" style={{verticalAlign:"middle"}} >
-                <div _ngcontent-emq-c3="" classNameName=" col-lg-6 ml-auto">
-                    <img _ngcontent-emq-c3="" alt="300" classNameName=" img-thumbnail rounded mx-auto d-block" src="../../../assets/img/verificaImg.jpg" style={{marginBottom:"80px"}}/>
+            <div _ngcontent-emq-c3="" className="row" style={{verticalAlign:"middle"}} >
+                <div _ngcontent-emq-c3="" className=" col-lg-6 ml-auto">
+                    <img _ngcontent-emq-c3="" alt="300" className=" img-thumbnail rounded mx-auto d-block" src="../../../assets/img/verificaImg.jpg" style={{marginBottom:"80px"}}/>
                 </div>
-                <div _ngcontent-emq-c3="" classNameName="col-lg-6 mr-auto  " style={{marginBottom: "80px"}} >
-                    <div _ngcontent-emq-c3="" classNameName="shadow p-3 mb-5 rounded " style={{backgroundColor: "#3e556c"}}>
+                <div _ngcontent-emq-c3="" className="col-lg-6 mr-auto  " style={{marginBottom: "80px"}} >
+                    <div _ngcontent-emq-c3="" className="shadow p-3 mb-5 rounded " style={{backgroundColor: "#3e556c"}}>
                         <h1 _ngcontent-emq-c3="" style={{marginBottom: "20px"}} >Misión</h1>
-                        <p _ngcontent-emq-c3="" classNameName="lead ">VERIFICA SRL, es una empresa de servicios especialista en
+                        <p _ngcontent-emq-c3="" className="lead ">VERIFICA SRL, es una empresa de servicios especialista en
                             verificaciones domiciliarias, Laborales, siendo nuestros principales clientes: entidades
                             financieras, públicas y personas particulares de nuestro medio. </p>
                     </div>
-                    <div _ngcontent-emq-c3="" classNameName="shadow p-3 mb-5 rounded " style={{backgroundColor: "#3e556c"}} >
+                    <div _ngcontent-emq-c3="" className="shadow p-3 mb-5 rounded " style={{backgroundColor: "#3e556c"}} >
                         <h1 _ngcontent-emq-c3="" style={{marginBottom: "20px"}}>Visión</h1>
-                        <p _ngcontent-emq-c3="" classNameName="lead">VERIFICA SRL, ser un referente a nivel departamental y nacional
+                        <p _ngcontent-emq-c3="" className="lead">VERIFICA SRL, ser un referente a nivel departamental y nacional
                             en el servicio de verificaciones domiciliarias y laborales, brindando un servicio de calidad y
                             eficiencia a entidades bancarias, instituciones públicas y personas particulares.</p>
                     </div>
@@ -112,7 +112,7 @@ export const Main = () => {
                     <div _ngcontent-emq-c3="" className="divider-custom-line"></div>
                 </div>
                 <div _ngcontent-emq-c3="" className="card-deck">
-                    <div _ngcontent-emq-c3="" className="card">
+                    <div _ngcontent-emq-c3="" className="card card-services">
                         <img _ngcontent-emq-c3="" alt="..." className="card-img-top" src="../../../assets/img/casas1.jpg"/>
                         <div _ngcontent-emq-c3="" className="card-body">
                             <h1 _ngcontent-emq-c3="" className="card-title text-secondary" style={{marginTop:"20px",marginBottom:"20px"}}>Verificación Domiciliaria </h1>
@@ -125,7 +125,7 @@ export const Main = () => {
                             </p>
                         </div>
                     </div>
-                    <div _ngcontent-emq-c3="" className="card">
+                    <div _ngcontent-emq-c3="" className="card card-services">
                         <img _ngcontent-emq-c3="" alt="..." className="card-img-top" src="../../../assets/img/departamentos1.jpg"/>
                         <div _ngcontent-emq-c3="" className="card-body">
                             <h1 _ngcontent-emq-c3="" className="card-title text-secondary"
@@ -153,6 +153,7 @@ export const Main = () => {
                 </div>
             </div>
             </section>
+
         </div>
     )
 }

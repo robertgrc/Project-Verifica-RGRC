@@ -4,6 +4,11 @@ import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
 import './components/FooterCss/Footer.css';
 import { Main } from './components/Main';
+import { Modal } from './components/Modal/Modal'
+
+
+
+
 
 
 
@@ -13,6 +18,7 @@ function App() {
       <Navbar /> 
       <Main />
       <Footer />
+      <Modal/>
     </div>
   );
 }
