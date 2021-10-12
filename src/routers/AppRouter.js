@@ -5,22 +5,21 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Login } from '../components/login/Login';
-import { Modal } from '../components/Modal/Modal';
-import { Navbar } from '../components/Navbar';
-import { Register } from '../components/register/Register';
+import { LoginScreen } from '../components/login/LoginScreen';
+import { DashboardRoutes } from './DashboardRoutes';
+
+
 export const AppRouter = () => {
     return (
         <Router>
-        <div>
-         <Navbar />
+          <div>
 
-          <Switch>
-           <Route exact path="/login" component={Login} />
-           <Route exact path="/register" component={Register} />
-           <Route exact path="/modal" component={Modal} />
-          </Switch>
-        </div>
+            <Switch>
+              <Route exact path="/loginscreen" component={LoginScreen} />   
+              <Route path="/" component={DashboardRoutes} />   
+              
+            </Switch>
+          </div>
       </Router>
     )
 }

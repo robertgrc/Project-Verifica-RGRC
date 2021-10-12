@@ -1,13 +1,11 @@
 
 import './App.css';
-import { Footer } from './components/Footer';
-import { Navbar } from './components/Navbar';
+// import { Footer } from './components/Footer';
+// import { Navbar } from './components/Navbar';
+// import { Main } from './components/Main';
+
 import './components/FooterCss/Footer.css';
-import { Main } from './components/Main';
-import { Modal } from './components/Modal/Modal'
-import { Register } from './components/register/Register';
-import { Reservas } from './components/reservas/Reservas';
-import { AgregarReserva } from './components/agregarReservas/AgregarReserva';
+import { AppRouter } from './routers/AppRouter';
 
 
 
@@ -19,13 +17,13 @@ import { AgregarReserva } from './components/agregarReservas/AgregarReserva';
 function App() {
   return (
     <div className="App">
-      <Navbar /> 
+    
+    <AppRouter />
+
+      {/* <Navbar /> 
       <Main />
-      <Footer />
-      <Modal/>
-      <Register />
-      <Reservas />
-      <AgregarReserva />
+      <Footer /> */}
+      
       
     </div>
   );
